@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/* Typographies / Couleurs (exemples : titres, paragraphes, liens, etc.)
+========================================================================== */
+
+body {
+	background-color: white;
+}
+
+body {
+	font-family: 'Lato';
+	font-style: normal;
+}
+
+/* Mise en page (positionnement)
+========================================================================== */
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+main {
+	margin: 25px 0px;
+}
+
+.displayLigne {
+	display: flex;
+	flex-direction: row;
+}
+
+.displayColonne {
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* Header / Navigations / Footer 
+========================================================================== */
+nav a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+header div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.topFooter {
+	min-height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: #0B162C;
+	text-decoration: none;
+}
+
+footer {
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+
+/* Composantes générales (exemples : section, cartes, tableaux, etc.)
+========================================================================== */
+.lien {
+	text-decoration: none;
+	background-color: white;
+	padding: 10px 15px;
+}
+
+.contact {
+	color: black;
+	cursor: pointer;
+}
+
+.carte {
+	min-height: 370px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.carte img {
+	height: 250px;
+	width: auto;
+}
+
+.carte a {
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+
+.nomAlbum {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.gridDisque {
+	min-height: 80px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	padding: 10px 10px;
+}
+
+.topDisque {
+	height: 80px;
+	width: 100%;
+	background-color: rgb(40, 40, 40);
+	color: white;
+	align-content: center;
+	padding: 0px 10px;
+}
+
+.gridPochette {
+	height: 600px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	padding: 10px 10px;
+}
+.gridPochette img{
+	height: 580px;width: auto;
+}
+
+.infoPochette{
+	background-color: rgb(229, 229, 229);height: 80%;display: flex;flex-direction: column;padding: 20px 15px;
+}
+.infoItem{
+	border-bottom: 2px solid black;display: flex;width: 100%;justify-content: space-between;padding: 15px 0px;
+	font-size: 20px;
+}
+.infoDroite{
+	color: rgb(44, 44, 205);
+}
+
+/* Formulaires
+========================================================================== */
+
+
+
+/* Règles spécifiques aux pages
+========================================================================== */
