@@ -9,7 +9,7 @@
 	<meta name="description" content="Fiche de disque">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@200;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 
@@ -28,37 +28,33 @@
 			</nav>
 		</div>
 	</header>
-	<main >
+	<main>
 		<div class="container ">
-			<section
-				class="gridPochette">
-				<img src="img/album-25.jpg"  alt="pochette">
-				<div
-					class="infoPochette">
-					<span>Nom de l'album</span>
+			<section class="gridPochette">
+				<img src="img/album-18.jpg" alt="pochette">
+				<div class="infoPochette">
+					<h1>Nom de l'album</h1>
+					<h1 class="prix">29,99$</h1>
 
-					<div
-						class="infoItem">
+					<div class="infoItem">
 						<span>Artiste</span>
 						<span class="infoDroite">Nom de l'artiste</span>
 					</div>
-					<div
-						class="infoItem">
-						<span>Artiste</span>
-						<span class="infoDroite">Nom de l'artiste</span>
+					<div class="infoItem">
+						<span>Catégorie</span>
+						<span class="infoDroite">Rock progressif</span>
 					</div>
-					<div
-						class="infoItem">
-						<span>Artiste</span>
-						<span class="infoDroite">Nom de l'artiste</span>
+					<div class="infoItem">
+						<span>Vendeur</span>
+						<span class="infoDroite">Paul Untel</span>
 					</div>
-					<div
-						class="infoItem">
-						<span>Artiste</span>
-						<span class="infoDroite">Nom de l'artiste</span>
+					<div class="infoItem">
+						<span>Qualité</span>
+						<span class="infoDroite">Excellente</span>
 					</div>
 
 
+					<a href="#">Contactez le vendeur</a>
 
 
 				</div>
@@ -69,21 +65,88 @@
 					Détails supplémentaires
 				</h1>
 			</div>
-			<section
-				style="height: 500px;width: 100%;display: grid;grid-template-columns: 1fr 2fr ;gap: 20px;padding: 10px 10px;">
-				<div
-					style="background-color: rgb(229, 229, 229);min-height: 340px;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+			<section class="gridDetail">
+				<div class="parution">
+						<h3>Parution</h3>
+						<div class="infoItem">
+							<span>Date</span>
+							<span class="infoDroite">Novembre 1969</span>
+						</div>
+						<div class="infoItem">
+							<span>Pays</span>
+							<span class="infoDroite">Canada</span>
+						</div>
+					
 
 				</div>
-				<div
-					style="background-color: rgb(229, 229, 229);min-height: 340px;display: flex;flex-direction: column;padding: 20px 15px;">
-					<span>Détails des pieces</span>
-					<table style="width: 100%;;">
+				<div class="mots">
+					<h3>Mots clés</h3>
+					
+					<a href="">Lorem ipsum</a> <a href="">Lorem ipsum</a>
+					<a href="">Dolor met</a>
+					<a href="">Lorem</a>
+					<a href="">Ipsum</a>
+					<a href="">Lorem ipsum</a>
+					<a href="">Lorem ipsum</a>
+					<a href="">Dolor met</a>
+					<a href="">Lorem</a>
+				</div>
+
+				<div class="detailAlbum">
+					<h3>Détails des pièces</h3>
+					<table style="width: 100%;">
 						<thead>
-							<th>
-								<tr style="border: 2px solid blaack">Max</tr>
-							</th>
+							<tr>
+								<th>Titre</th>
+								<th>Côté</th>
+								<th>Durée</th>
+								<th>Compositeur</th>
+							</tr>
 						</thead>
+						<tbody>
+							<tr style="padding: 10px 30px;">
+								<td class="premiereColonne">lorem ipsum</td>
+								<td rowspan="4">A</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td rowspan="4">B</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+							<tr>
+								<td>lorem ipsum</td>
+								<td>03h25</td>
+								<td>Paul Unel</td>
+							</tr>
+						</tbody>
 					</table>
 				</div>
 			</section>
@@ -94,50 +157,50 @@
 						Rock
 					</h1>
 				</div>
-	
-					<div class="gridDisque">
-						<div class="carte">
-							
-							<img src="img/album-22.png"  alt="album">
-							<span>
-								Nom de l'artiste 
-							</span>
-							<span class="nomAlbum">
-								Nom de l'album
-							</span>
-							<a href="#" class="lien ">
-								Voir plus
-							</a>
-						</div>
-						<div class="carte">
-							
-							<img src="img/album-23.jpg"  alt="album">
-							<span>
-								Nom de l'artiste 
-							</span>
-							<span class="nomAlbum">
-								Nom de l'album
-							</span>
-							<a href="#" class="lien ">
-								Voir plus
-							</a>
-						</div>
-						<div class="carte">
-							
-							<img src="img/album-12.webp"  alt="album">
-							<span>
-								Nom de l'artiste 
-							</span>
-							<span class="nomAlbum">
-								Nom de l'album
-							</span>
-							<a href="#" class="lien ">
-								Voir plus
-							</a>
-						</div>
-						
-						
+
+				<div class="gridDisque">
+					<div class="carte">
+
+						<img src="img/album-22.png" alt="album">
+						<span>
+							Nom de l'artiste
+						</span>
+						<span class="nomAlbum">
+							Nom de l'album
+						</span>
+						<a href="#" class="lien ">
+							Voir plus
+						</a>
 					</div>
+					<div class="carte">
+
+						<img src="img/album-23.jpg" alt="album">
+						<span>
+							Nom de l'artiste
+						</span>
+						<span class="nomAlbum">
+							Nom de l'album
+						</span>
+						<a href="#" class="lien ">
+							Voir plus
+						</a>
+					</div>
+					<div class="carte">
+
+						<img src="img/album-12.webp" alt="album">
+						<span>
+							Nom de l'artiste
+						</span>
+						<span class="nomAlbum">
+							Nom de l'album
+						</span>
+						<a href="#" class="lien ">
+							Voir plus
+						</a>
+					</div>
+
+
+				</div>
 			</section>
 
 
@@ -146,16 +209,16 @@
 		</div>
 	</main>
 	<footer>
-			<div class=" container topFooter">
-				<span>Sillon : 1660 Boul de l'entente, Québec</span>
-				<a href="tel:418 123-4567" class="lien contact">418 123-4567</a>
-			</div>
-			<div style="padding: 20px 0px;text-align: center;background-color: white;color: black;">
-				<span>
-					Site réalisé par Max Jordan N'Guessan dans le cadre du programme Technique de l'informatique - Cégep
-					Informatique
-				</span>
-			</div>
+		<div class=" container topFooter">
+			<span>Sillon : 1660 Boul de l'entente, Québec</span>
+			<a href="tel:418 123-4567" class="lien contact">418 123-4567</a>
+		</div>
+		<div style="padding: 20px 0px;text-align: center;background-color: white;color: black;">
+			<span>
+				Site réalisé par Max Jordan N'Guessan dans le cadre du programme Technique de l'informatique - Cégep
+				Informatique
+			</span>
+		</div>
 	</footer>
 
 </body>
